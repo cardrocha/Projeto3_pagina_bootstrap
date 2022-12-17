@@ -1,0 +1,61 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    background-color: #8c41e1;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color:#8c41e1;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color:#fff
+}
+
+.navbar-toggler {
+    background-color: #f3e6ff;
+    margin-bottom: 5px;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #f4e6ff;
+}
+
+section #eventos .container .row .col button {
+    background-color: #8c41e1;
+    color: #fff;    
+}
+
+.text-colored {
+    color: #8c41e1;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #8c41e1;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color:#8c41e1;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
